@@ -9,11 +9,11 @@
 
 /* adding fonts*/
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Sintony', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* sticky for the navbar */
@@ -26,7 +26,7 @@ h1, h2, h3 {
 nav {
     width: 100%;
     height: 80px;
-    background-image: linear-gradient(45deg, #627b70 0%, #ffdde1 100%);
+    background-image: linear-gradient(45deg, #627b70 0%, #cbc6a9 100%);
     display: flex;
     color: white;
     justify-content: center;
@@ -37,7 +37,7 @@ nav {
 /* styling for logo text */
 .navtext {
     font-size: 2em;
-    text-shadow: 1px 1px 2px #ffdde1;
+    text-shadow: 1px 1px 2px #cbc6a9;
     text-align: center;
 }
 
@@ -108,8 +108,8 @@ header {
 .top-txt-container:hover {
     transform: scale(1.1);
     color:#627b70;
-    text-shadow: -1px -1px 3px #ffdde1,
-    3px 3px 3px #ffdde1;
+    text-shadow: -1px -1px 3px #cbc6a9,
+    3px 3px 3px #cbc6a9;
 }
 
 
