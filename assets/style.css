@@ -79,7 +79,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 500px;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F388365167872960655%2F&psig=AOvVaw1zdunKylqSM-fp40LVzFSK&ust=1695853714559000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOCO3MOpyYEDFQAAAAAdAAAAABAN")
+    background-image: url("mountains.jpg");
     background-size: cover;
     background-position: center;
     border-bottom: 2px solid #627b70;
@@ -91,25 +91,25 @@ header {
     text-align: center;
     color: white;
     letter-spacing: 0.5em;
-    text-shadow: -1px -1px 3px #627b70,
+    text-shadow: 2px 2px 3px #627b70,
     3px 3px 3px #627b70;
     transition: all 0.5s ease-in;
     text-transform: lowercase;
 }
 
 .top-txt-container h1 {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .top-txt-container h2 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .top-txt-container:hover {
     transform: scale(1.1);
     color:#627b70;
     text-shadow: -1px -1px 3px #cbc6a9,
-    3px 3px 3px #cbc6a9;
+    5px 5px 5px #cbc6a9;
 }
 
 
@@ -127,7 +127,7 @@ section h2 {
     background-color: #627b70;
     color: white;
     letter-spacing: 0.2em;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 /* fixing alignment for image in about section */
@@ -151,7 +151,7 @@ section h2 {
 
     nav {
         flex-direction: column;
-        width: 200px;
+        width: 235px;
         height: 100%;
         align-items: stretch;
     }
@@ -163,7 +163,7 @@ section h2 {
     }
 
     .navlinks {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     nav ul li a{
@@ -171,7 +171,7 @@ section h2 {
     }
 
     main, footer, header {
-        margin-left: 200px;
+        margin-left: 100px;
     }
 
     /* displaying icons on desktop layout */
