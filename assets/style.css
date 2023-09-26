@@ -9,11 +9,11 @@
 
 /* adding fonts*/
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
 
 /* sticky for the navbar */
@@ -31,7 +31,7 @@ nav {
     color: white;
     justify-content: center;
     align-items: center;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 
 /* styling for logo text */
