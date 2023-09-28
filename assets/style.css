@@ -12,21 +12,21 @@ body {
     font-family: 'Overpass', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Overpass', sans-serif;
 }
 
 /* sticky for the navbar */
 .sticky {
     position: sticky;
-    top: 0;
+    top: 0px;
 }
 
 /* Styling for navbar, also flexbox container */
 nav {
     width: 100%;
     height: 80px;
-    background-image: linear-gradient(45deg, #627b70 0%, #cbc6a9 100%);
+    background-image: linear-gradient(50deg, #627b70 0%, #cbc6a9 100%);
     display: flex;
     color: white;
     justify-content: center;
@@ -69,7 +69,7 @@ nav ul li a:hover {
 
 /* hides github and email icons for mobile */
 .icons {
-    display: none;
+    display:none;
 }
 
 
@@ -78,7 +78,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 400px;
     background-image: url("mountains.jpg");
     background-size: cover;
     background-position: center;
@@ -105,6 +105,15 @@ header {
     font-size: 2em;
 }
 
+.top-txt-container h3 {
+    font-size: 2em;
+}
+
+.top-txt-container h4 {
+    font-size: 2em;
+}
+
+
 .top-txt-container:hover {
     transform: scale(1.1);
     color:#627b70;
@@ -115,27 +124,77 @@ header {
 
 /* Styling main sections */
 section {
-    width: 80%;
     margin: auto;
     background-color: white;
-    margin-bottom: 1em;
+    margin-right: 100px;
+    text-align: center;
+    color: #040504;
+    letter-spacing: 0.2em;
 }
 
 section h2 {
-    text-align: center;
-    text-transform: lowercase;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-right: 100px;
     background-color: #627b70;
     color: white;
     letter-spacing: 0.2em;
-    border-radius: 25px;
+    width: 105.5%;
+    text-align: center;
 }
 
 /* fixing alignment for image in about section */
 #about img {
     float: left;
-    margin-right: 5px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    margin-left: 50px;
+    border-radius: 100px;
+    text-align: center;
 }
 
+section h3 {
+    text-align: center;
+    margin-bottom: 150px;
+    transform: scale(1.1);
+    color: #627b70;
+    text-shadow: -1px -1px 3px #cbc6a9
+    text-transform: lowercase;
+    .menuitem > span {
+    font-family: 'Overpass', sans-serif;
+    width:105.5%;
+}
+
+section h4 {
+    text-align: center;
+    margin-bottom: 45px;
+    width: 100%
+    transform: scale(1.1);
+    color: #627b70;
+    text-shadow: -1px -1px 3px #cbc6a9
+    text-transform: lowercase;
+    .menuitem > span {
+    font-family: 'Overpass', sans-serif;
+    
+}
+
+section h5{
+    width: 100%
+    margin-right 100px;
+    background-color: white;
+    margin-right: 100px;
+    text-align: center;
+    color: #627b70;
+    letter-spacing: 0.3em;
+    
+    
+    
+
+}
+
+
+
+}
 .clearfix::after {
     content: "";
     clear: both;
@@ -143,7 +202,7 @@ section h2 {
   }
 
 /* Media queries, change layout to vertical bar when screen is big enough */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 20px) {
     .sticky {
         position: fixed;
         left: 0;
@@ -151,7 +210,7 @@ section h2 {
 
     nav {
         flex-direction: column;
-        width: 235px;
+        width: 200px;
         height: 100%;
         align-items: stretch;
     }
@@ -163,7 +222,7 @@ section h2 {
     }
 
     .navlinks {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     nav ul li a{
@@ -171,12 +230,14 @@ section h2 {
     }
 
     main, footer, header {
-        margin-left: 100px;
+        margin-right: 100px;
+        
     }
 
     /* displaying icons on desktop layout */
     .icons {
         display: inline-block;
         text-align: center;
+        flex-wrap: 100;
     }
 }
