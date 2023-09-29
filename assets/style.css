@@ -99,10 +99,12 @@ header {
 
 .top-txt-container h1 {
     font-size: 4em;
+    text-align: center;
 }
 
 .top-txt-container h2 {
     font-size: 2em;
+    text-align: center;
 }
 
 .top-txt-container h3 {
@@ -130,16 +132,17 @@ section {
     text-align: center;
     color: #040504;
     letter-spacing: 0.2em;
+    margin-bottom: 100px;
 }
 
 section h2 {
     margin-bottom: 60px;
     margin-top: 50px;
-    margin-right: 100px;
+    margin-right: 150px;
     background-color: #627b70;
     color: white;
     letter-spacing: 0.2em;
-    width: 105.5%;
+    width: 107.3%;
     text-align: center;
 }
 
@@ -147,14 +150,15 @@ section h2 {
 #about img {
     float: left;
     margin-bottom: 50px;
-    margin-top: -50px;
-    margin-left: 50px;
+    margin-top: -25px;
+    margin-left: 40px;
     border-radius: 100px;
     text-align: center;
 }
 
 section h3 {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 150px;
     transform: scale(1.1);
     color: #627b70;
@@ -162,8 +166,8 @@ section h3 {
     text-transform: lowercase;
     .menuitem > span {
     font-family: 'Overpass', sans-serif;
-    width:105.5%;
-}
+    width:107.3%;
+    
 
 section h4 {
     text-align: center;
@@ -175,10 +179,10 @@ section h4 {
     text-transform: lowercase;
     .menuitem > span {
     font-family: 'Overpass', sans-serif;
-    
+    display: inline-block;
 }
 
-section h5{
+section h5 {
     width: 100%
     margin-right 100px;
     background-color: white;
@@ -186,15 +190,11 @@ section h5{
     text-align: center;
     color: #627b70;
     letter-spacing: 0.3em;
-    
-    
-    
-
 }
 
 
 
-}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -210,7 +210,7 @@ section h5{
 
     nav {
         flex-direction: column;
-        width: 200px;
+        width: 100%;
         height: 100%;
         align-items: stretch;
     }
@@ -230,7 +230,7 @@ section h5{
     }
 
     main, footer, header {
-        margin-right: 100px;
+        margin-right: 100%;
         
     }
 
